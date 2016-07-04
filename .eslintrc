@@ -4,13 +4,15 @@
     "indent": ["error", 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
     "brace-style": ["error", "allman"],
     "no-underscore-dangle": ["off"],
-    "max-len": ["error", 115, 2, {
+    "max-len": ["error", 200, 2, {
       "ignoreUrls": true,
       "ignoreComments": false
     }],
     "prefer-arrow-callback": ["off"],
     "no-param-reassign": ["error", { "props": false }],
+    "spaced-comment": ["off"],
+    "curly": ["error", "multi-or-nest"],
 //    "camelcase": ["error", { "properties": "never" }],
-    "import/no-unresolved": [0]
+    "import/no-unresolved": ["off"]
   }
 }
