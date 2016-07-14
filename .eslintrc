@@ -12,6 +12,8 @@
     "no-param-reassign": ["error", { "props": false }],
     "spaced-comment": ["off"],
     "curly": ["error", "multi-or-nest"],
+    "no-restricted-syntax": ["off"],
+    "vars-on-top": ["off"],
 //    "camelcase": ["error", { "properties": "never" }],
     "import/no-unresolved": ["off"]
   }
